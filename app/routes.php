@@ -11,4 +11,3 @@ $app->match('saisirFrais', "GestionFicheFraisControleur::saisirFrais");
 $app->match('validerFrais', "GestionFicheFraisControleur::validerFrais");
 ?>
 <p>Test</p>
-<p>Test2</p>
