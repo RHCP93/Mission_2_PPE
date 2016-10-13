@@ -1,5 +1,6 @@
 <?php
                     /* Définition des routes*/
+//sltttttttttttttttttttttttttt
 $app->match('/', "ConnexionControleur::accueil"); 
 $app->match('verifierUser', "ConnexionControleur::verifierUser");
 $app->match('deconnecter', "ConnexionControleur::deconnecter");
@@ -11,3 +12,5 @@ $app->match('saisirFrais', "GestionFicheFraisControleur::saisirFrais");
 $app->match('validerFrais', "GestionFicheFraisControleur::validerFrais");
 ?>
 <p>Test</p>
+
+
